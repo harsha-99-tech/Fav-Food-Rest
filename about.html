@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-with, initial-scale=1.0">
+        <title>FAV-Food-Rest</title>
+
+        <!--Link to css file-->
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!--------Header--------->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LOGO1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="order.html">ORDER</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>About US</h1>
+        </section>
+
+        <!----------about us content---------->
+        <section class="about-us">
+            <div class="row">
+                <div class="ab-col">
+                    <h1>We are the best food delivering company inside Sri Lanka.</h1>
+                <p>We deliver fast food to any location around our restaurent chain. We also have chefs who can make food from different countries of the world 
+                    in their own right, so you will have the opportunity to taste delicious local and foreign dishes in their own uniqueflavours. Also our menu 
+                    is varied as it is subjet to different variations at different times. 
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="ab-col">
+                    <img src="images/food04.jpg">
+                </div>
+            </div>
+        </section>
+
+
+       
+        <!------------Footer------------>
+        <section class="ftr">
+            <h4>About US</h4>
+            <p>Foodies, We are FAV-Food-Rest. We have the best meals around the world. And we also have best staff and cooks. We have 3 restaurens<br> around 
+                Sri Lanka and we can deliver meals around these areas quickly and safely.</p>
+            <div class="ico">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+            <p>Made by <i class="fa fa-copyright"></i> W.M.H.Nawana(ITT/18/1/060)</p>
+        </section>
+
+        <!---------------------JavaScript for Open Menu----------------------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-150px";
+            }
+        </script>
+
+    </body>
+</html>

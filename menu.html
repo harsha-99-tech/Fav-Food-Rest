@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-with, initial-scale=1.0">
+        <title>FAV-Food-Rest</title>
+
+        <!--Link to css file-->
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!--------Header--------->
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LOGO1.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="order.html">ORDER</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>Menu</h1>
+        </section>
+
+        <!---------------menu---------->
+
+        <!---------Recipies--------->
+        <section class="recipies">
+            <h1>Our Recipies</h1>
+            <p>Ingrediens we use to make meals and little description about meals.</p>
+
+            <div class="row">
+                <div class="recipies-col">
+                    <img src="images/kottu.jpg" alt="Koththu">
+                    <h3>Koththu - Sri Lanka</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Roti, Egg, Onion, Chilli, Pepper<br>
+                        <b>Ingredients generally used</b>-<br>
+                        Chicken, Mutton, Seafood, Carrot, Spring onion, Bell Pepper<br>
+                        
+                        <b>About</b><br>
+                        Kothu roti is a popular street dish that is widely consumed throughout Sri Lanka and is very popular in Sri Lankan cuisine. The 
+                        word "Kothu" means "to chop" in Tamil, referring to its method of preparation.<br>
+                    </p>
+                </div>
+
+                <div class="recipies-col">
+                    <img src="images/pizza.jpg" alt="Pizza">
+                    <h3>Pizza - Italy</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Dough, Souce (Usually tomato souce), Cheese<br>
+                        <b>Variations</b>-<br>
+                        Calzone, Panzerotti, Stromboli<br>
+                        <b>About</b><br>
+                        Pizza is an Italian dish consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, 
+                        and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at 
+                        a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta. A person who makes pizza is 
+                        known as a pizzaiolo.<br>
+                    </p>
+                </div>
+
+                <div class="recipies-col">
+                    <img src="images/chicken.jpg" alt="Fried Chicken">
+                    <h3>Fried Chicken - United States</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Chicken, batter or seasoned flour<br>
+                        <b>Variations</b>-<br>
+                        Hot Chicken, Popcorn Chicken<br>
+                        <b>About</b><br>
+                        Fried chicken has been described as being "crunchy" and "juicy", as well as "crispy". The dish has also been called "spicy" and "salty". 
+                        Occasionally, fried chicken is also topped with chili like paprika, or hot sauce to give it a spicy taste. This is especially common in 
+                        fast food restaurants. The dish is traditionally served with mashed potatoes, gravy, macaroni and cheese, coleslaw, corn or biscuits.<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="recipies-col">
+                    <img src="images/chips.jpg" alt="Potato Chips">
+                    <h3>Potato Chips - United Kingdom</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Potato, Chilli, Salt, Pepper<br>
+                        <b>Ingredients generally used</b>-<br>
+                        Herbs, Spices, Cheeses<br>
+                        
+                        <b>About</b><br>
+                        A potato chip is a thin slice of potato that has been either deep fried or baked until crunchy. They are commonly served as a snack, 
+                        side dish, or appetizer. The basic chips are cooked and salted; additional varieties are manufactured using various flavorings and 
+                        ingredients including herbs, spices, cheeses, other natural flavors, artificial flavors, and additives.<br>
+                    </p>
+                </div>
+
+                <div class="recipies-col">
+                    <img src="images/lasagna.jpg" alt="Lasagne">
+                    <h3>Lasagne - Italy</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Durum wheat, Ground meat, Cheese<br>
+                        <b>Variations</b>-<br>
+                        Lasagnette<br>
+                        <b>About</b><br>
+                        Lasagne is a type of pasta, possibly one of the oldest types, made of very wide, flat sheets. Either term can also refer to an Italian 
+                        dish made of stacked layers of lasagne alternating with fillings such as ragù (ground meats and tomato sauce), vegetables, cheeses (which 
+                        may include ricotta, mozzarella, and parmesan), and seasonings and spices, like Italian seasoning, such as garlic, oregano and basil. 
+                        The dish may be topped with grated cheese, which becomes melted after baking. Typically, cooked pasta is assembled with the other 
+                        ingredients and then baked in an oven. The resulting casserole is cut into single-serving square portions.<br>
+                    </p>
+                </div>
+
+                <div class="recipies-col">
+                    <img src="images/burger.jpg" alt="Burger">
+                    <h3>Burger - Germany</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Ground meat, bread<br>
+                        <b>Variations</b>-<br>
+                        Veggie burgers, Steak burgers<br>
+                        <b>About</b><br>
+                        The term "burger" eventually became a self-standing word that is associated with many different types of sandwiches, similar to a (ground 
+                        meat) hamburger, but made of different meats such as buffalo in the buffalo burger, venison, kangaroo, chicken, turkey, elk, lamb or 
+                        fish like salmon in the salmon burger, but even with meatless sandwiches as is the case of the veggie burger.<br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="recipies-col">
+                    <img src="images/kebab.jpg" alt="Kebab">
+                    <h3>Kebab - Middle East</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Meat<br>
+                        <b>Ingredients generally used</b>-<br>
+                        Vegitables<br>
+                        
+                        <b>About</b><br>
+                        Kebabs consist of cut up or ground meat, sometimes with vegetables, and various other accompaniments according to the specific recipe.
+                         Although kebabs are typically cooked on a skewer over a fire, some kebab dishes are baked in a pan in an oven or prepared as a stew 
+                         such as tas kebab. The traditional meat for kebabs is most often mutton or lamb, but regional recipes may include beef, goat, chicken, 
+                         fish, or more rarely due to religious prohibitions, pork.<br>
+                    </p>
+                </div>
+
+                <div class="recipies-col">
+                    <img src="images/pasta.jpg" alt="Pasta">
+                    <h3>Pasta - Italy</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Durum wheat flour<br>
+                        <b>Ingredients generally used</b>-<br>
+                        Water, sometimes eggs<br>
+                        <b>Variations</b>-<br>
+                        Rice flour pasta, legume pasta<br>
+                        <b>About</b><br>
+                        Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other 
+                        shapes, then cooked by boiling or baking. Rice flour, or legumes such as beans or lentils, are sometimes used in place of wheat flour to 
+                        yield a different taste and texture, or as a gluten-free alternative. Pasta is a staple food of Italian cuisine.<br>
+                    </p>
+                </div>
+
+                <div class="recipies-col">
+                    <img src="images/taco.jpg" alt="Taco">
+                    <h3>Taco - Mexico</h3>
+                    <p><b>Main Ingredients</b>-<br>
+                        Tortillas, meat, vegetables, cheese<br>
+                        <b>About</b><br>
+                        A Taco is a traditional Mexican dish consisting of a small hand-sized corn or wheat tortilla topped with a filling. The tortilla is then 
+                        folded around the filling and eaten by hand. A taco can be made with a variety of fillings, including beef, pork, chicken, seafood, beans, 
+                        vegetables, and cheese, allowing for great versatility and variety. They are often garnished with various condiments, such as salsa, 
+                        guacamole, or sour cream, and vegetables, such as lettuce, onion, tomatoes, and chiles. Tacos are a common form of antojitos, or Mexican 
+                        street food, which have spread around the world.<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+       
+        <!------------Footer------------>
+        <section class="ftr">
+            <h4>About US</h4>
+            <p>Foodies, We are FAV-Food-Rest. We have the best meals around the world. And we also have best staff and cooks. We have 3 restaurens<br> around 
+                Sri Lanka and we can deliver meals around these areas quickly and safely.</p>
+            <div class="ico">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-youtube"></i>
+            </div>
+            <p>Made by <i class="fa fa-copyright"></i> W.M.H.Nawana(ITT/18/1/060)</p>
+        </section>
+
+        <!---------------------JavaScript for Open Menu----------------------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-150px";
+            }
+        </script>
+
+    </body>
+</html>
